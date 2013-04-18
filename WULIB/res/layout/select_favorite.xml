@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/mainhead"
+            android:gravity="center"
+            android:text="Select type"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background2" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_sf_catalog"
+                    style="@style/btnStyleOrange"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:onClick="btnClick"
+                    android:text="Catalog"
+                    android:textSize="40dp" />
+
+                <Button
+                    android:id="@+id/btn_sf_journal"
+                    style="@style/btnStyleOrange"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:onClick="btnClick"
+                    android:text="Journal"
+                    android:textSize="40dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom" >
+    </LinearLayout>
+
+</LinearLayout>

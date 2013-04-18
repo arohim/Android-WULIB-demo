@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ss.main.wulib"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ss.main.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ss.search.journal.JSearchByKeyword"
+            android:label="@string/title_activity_search_by_keyword" >
+        </activity>
+        <activity
+            android:name="ss.search.journal.JSearchByAlphabetically"
+            android:label="@string/title_activity_search_by_alphabetically" >
+        </activity>
+        <activity
+            android:name="ss.search.journal.JSearchAdvance"
+            android:label="@string/title_activity_search_advance" >
+        </activity>
+        <activity
+            android:name="ss.search.journal.JMainSearch"
+            android:label="@string/title_activity_main_search" >
+        </activity>
+        <activity
+            android:name="ss.member.MainMember"
+            android:label="@string/title_activity_main_member"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="ss.member.LoginMember"
+            android:label="@string/title_activity_login_member"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="ss.member.borrows.MainBorrows"
+            android:label="@string/title_activity_member_borrows" >
+        </activity>
+        <activity
+            android:name="ss.member.renews.MainRenew"
+            android:label="@string/title_activity_member_renew" >
+        </activity>
+        <activity
+            android:name="ss.search.result.CSearchResult"
+            android:label="@string/title_activity_search_result" >
+        </activity>
+        <activity
+            android:name="ss.search.detail.MainSearchDetail"
+            android:label="@string/title_activity_search_detail" >
+        </activity>
+        <activity
+            android:name="ss.news.NewsMain"
+            android:label="@string/title_activity_news_main" >
+        </activity>
+        <activity
+            android:name="ss.newsbook.NewsBookMain"
+            android:label="@string/title_activity_news_book_main" >
+        </activity>
+        <activity
+            android:name="ss.BookInfo.MainBookInfo"
+            android:label="@string/title_activity_main_book_info" >
+        </activity>
+        <activity
+            android:name="ss.search.detail.CSearchDetailInfo"
+            android:label="@string/title_activity_search_detail_info" >
+        </activity>
+        <activity
+            android:name="ss.search.detail.SearchDetailCard"
+            android:label="@string/title_activity_search_detail_card" >
+        </activity>
+        <activity
+            android:name="ss.search.detail.SearchDetailMarc"
+            android:label="@string/title_activity_search_detail_marc" >
+        </activity>
+        <activity
+            android:name="ss.member.favorite.CMainFavorite"
+            android:label="@string/title_activity_main_favorite" >
+        </activity>
+        <activity
+            android:name="ss.search.SearchSelectType"
+            android:label="@string/title_activity_search_select_type" >
+        </activity>
+        <activity
+            android:name="ss.search.speech.SearchBySpeech"
+            android:label="@string/title_activity_search_by_speech" >
+        </activity>
+        <activity
+            android:name="ss.member.history.CMainHistory"
+            android:label="@string/title_activity_main_history" >
+        </activity>
+        <activity
+            android:name="ss.member.history.JMainHistory"
+            android:label="@string/title_activity_main_history" >
+        </activity>
+        <activity
+            android:name="ss.member.history.CHistoryItemDetail"
+            android:label="@string/title_activity_history_item_detail" >
+        </activity>
+        <activity
+            android:name="ss.search.SearchSelectFor"
+            android:label="@string/title_activity_search_select_for" >
+        </activity>
+        <activity android:name="ss.search.catalog.CMainSearch" >
+        </activity>
+        <activity android:name="ss.search.catalog.CSearchByKeyword" >
+        </activity>
+        <activity android:name="ss.search.catalog.CSearchAdvance" >
+        </activity>
+        <activity android:name="ss.search.catalog.CSearchByAlphabetically" >
+        </activity>
+        <activity android:name="ss.search.detail.JSearchDetailInfo" >
+        </activity>
+        <activity android:name="ss.search.result.JSearchResult" >
+        </activity>
+        <activity android:name="ss.member.favorite.JMainFavorite" >
+        </activity>
+        <activity android:name="ss.member.history.JHistoryItemDetail" >
+        </activity>
+        <activity
+            android:name="ss.news.NewsDetail"
+            android:label="@string/title_activity_news_detail" >
+        </activity>
+        <activity android:name="ss.member.favorite.MainFavorite" >
+        </activity>
+        <activity android:name="ss.member.history.MainHistory" >
+        </activity>
+        <activity android:name="ss.member.favorite.NewsFavorite" >
+        </activity>
+        <activity android:name="ss.member.setting.setting" >
+        </activity>
+        <activity
+            android:name="ss.callcenter.CallCenter"
+            android:label="@string/title_activity_call_center" >
+        </activity>
+        <activity
+            android:name="ss.member.renews.CMainRenews"
+            android:label="@string/title_activity_cmain_renews" >
+        </activity>
+        <activity
+            android:name="ss.member.renews.JMainRenews"
+            android:label="@string/title_activity_jmain_renews" >
+        </activity>
+        <activity android:name="ss.news.NewsFragmentActivity" >
+        </activity>
+        <activity android:name="ss.search.detail.CSearchDetailInfoFragmentActivity" >
+        </activity>
+        <activity android:name="ss.search.detail.JSearchDetailInfoFragmentActivity" >
+        </activity>
+        <activity android:name="ss.member.history.CHistoryFragmentActivity" >
+        </activity>
+        <activity android:name="ss.member.history.JHistoryFragmentActivity" >
+        </activity>
+        <activity
+            android:name="ss.member.penalty.PenaltyMain"
+            android:label="@string/title_activity_penalty_main" >
+        </activity>
+        <activity
+            android:name="ss.member.penalty.CPenaltyMain"
+            android:label="@string/title_activity_cpenalty_main" >
+        </activity>
+        <activity android:name="ss.member.penalty.JPenaltyMain" >
+        </activity>
+        <activity android:name="ss.member.penalty.CPenaltyFragmentActivity" >
+        </activity>
+        <activity android:name="ss.member.borrowing.BorrowingMain" >
+        </activity>
+        <activity android:name="ss.member.books.mt.BooksMtMain" >
+        </activity>
+        <activity android:name="ss.member.books.mt.CBooksMt" >
+        </activity>
+        <activity android:name="ss.member.books.mt.JBooksMt" >
+        </activity>
+        <activity android:name="ss.member.books.mt.CBooksMtFragmentActivity" >
+        </activity>
+        <activity android:name="ss.member.books.mt.JBooksMtFragmentActivity" >
+        </activity>
+        <activity android:name="ss.member.borrowing.JBorrowingMain" >
+        </activity>
+        <activity android:name="ss.member.borrowing.CBorrowingMain" >
+        </activity>
+        <activity android:name="ss.member.renews.CRenewsItemDetail" >
+        </activity>
+        <activity android:name="ss.member.borrows.CBorrowDetailInfo" >
+        </activity>
+    </application>
+
+</manifest>

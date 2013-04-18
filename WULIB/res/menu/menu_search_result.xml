@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_it_sr_detail"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Detail"/>
+    <item
+        android:id="@+id/menu_it_sr_addfavorite"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Add favorite" android:icon="@drawable/favorite"/>
+    <item
+        android:id="@+id/menu_it_sr_cancel"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Cancel"/>
+
+</menu>

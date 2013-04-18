@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_fv_opendetail"
+        android:title="Detail">
+    </item>
+    <item
+        android:id="@+id/menu_fv_borrow"
+        android:title="Borrow">
+    </item>
+    <item
+        android:id="@+id/menu_fv_delete"
+        android:title="Delete">
+    </item>
+    <item
+        android:id="@+id/menu_fv_cancel"
+        android:title="Cancel">
+    </item>
+
+</menu>

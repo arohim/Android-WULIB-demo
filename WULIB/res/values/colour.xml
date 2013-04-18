@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#dcdcdc</color>
+    <color name="mainhead">#7a2bd4</color>
+    <color name="white">#ffffff</color>
+    <color name="button">#e9f1f8</color>
+    <color name="colorbuttontext">#6d6666</color>
+    <color name="panel">#e8f2fe</color>
+    <color name="background">#f5f5f5</color>
+    <color name="background2">#e6f5fb</color>
+    <color name="background3">#ffffe1</color>
+    <color name="TransparentGrey">#5c000000</color>
+</resources>

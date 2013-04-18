@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TabHost
+        android1:id="@android:id/tabhost"
+        android1:layout_width="match_parent"
+        android1:layout_height="match_parent"
+        android1:layout_weight="1" >
+
+        <LinearLayout
+            android1:layout_width="match_parent"
+            android1:layout_height="match_parent"
+            android1:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/mainhead"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android1:id="@+id/mf_headericon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/favorite_icon" />
+
+                    <TextView
+                        android:id="@+id/mf_headertext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:text="Favorite"
+                        android:textColor="@color/white"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical|right"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TabWidget
+                    android1:id="@android:id/tabs"
+                    android1:layout_width="match_parent"
+                    android1:layout_height="wrap_content" >
+                </TabWidget>
+
+                <FrameLayout
+                    android1:id="@android:id/tabcontent"
+                    android1:layout_width="match_parent"
+                    android1:layout_height="match_parent" >
+
+                    <LinearLayout
+                        android1:id="@+id/tab1"
+                        android1:layout_width="match_parent"
+                        android1:layout_height="match_parent" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android1:id="@+id/tab2"
+                        android1:layout_width="match_parent"
+                        android1:layout_height="match_parent" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android1:id="@+id/tab3"
+                        android1:layout_width="match_parent"
+                        android1:layout_height="match_parent" >
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

@@ -1,0 +1,359 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchDetail" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/panel"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/panalty" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+            android:text="Penalty"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/cpenalty_detail_lo_favorite"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sr_style"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/cpenalty_detail_favorite"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/nonfavorite" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cpenalty_detail_lo_books"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sr_style"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/nonbook" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:alpha="0.3"
+        android:background="@drawable/shadow" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="bottom|left"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/cpenalty_detail_imgcover"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/noimagebook" />
+
+                <TextView
+                    android:id="@+id/cpenalty_detail_tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="title"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical" >
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <!-- <TableRow -->
+                    <!-- android:id="@+id/tableRow2" -->
+                    <!-- android:layout_width="match_parent" -->
+                    <!-- android:layout_height="wrap_content" -->
+                    <!-- android:layout_marginBottom="5dp" -->
+                    <!-- android:layout_marginTop="5dp" -->
+                    <!-- android:background="#fdf2c9" > -->
+
+
+                    <!-- <TextView -->
+                    <!-- android:id="@+id/TextView05" -->
+                    <!-- android:layout_width="wrap_content" -->
+                    <!-- android:layout_height="wrap_content" -->
+                    <!-- android:text="Title" -->
+                    <!-- android:textAppearance="?android:attr/textAppearanceSmall" /> -->
+
+
+                    <!-- <TextView -->
+                    <!-- android:id="@+id/sd_tv_title" -->
+                    <!-- android:layout_width="wrap_content" -->
+                    <!-- android:layout_height="wrap_content" -->
+                    <!-- android:maxWidth="250dp" -->
+                    <!-- android:text="title" -->
+                    <!-- android:textAppearance="?android:attr/textAppearanceSmall" /> -->
+                    <!-- </TableRow> -->
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView04"
+                            style="@style/headTable"
+                            android:text="Author : " />
+
+                        <TextView
+                            android:id="@+id/cpenalty_detail_tv_author"
+                            style="@style/contentTable"
+                            android:text="สุพจน์ แสวงพิริยะกิจ" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView07"
+                            style="@style/headTable"
+                            android:text="Publisher : " />
+
+                        <TextView
+                            android:id="@+id/cpenalty_detail_tv_publisher"
+                            style="@style/contentTable"
+                            android:maxWidth="50dp"
+                            android:text="publisher" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView06"
+                            style="@style/headTable"
+                            android:text="Collection : " />
+
+                        <TextView
+                            android:id="@+id/cpenalty_detail_tv_collection"
+                            style="@style/contentTable"
+                            android:text="จาวา [ภาษาคอมพิวเตอร์].(+)" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView07"
+                            style="@style/headTable"
+                            android:text="Call number : " />
+
+                        <TextView
+                            android:id="@+id/cpenalty_detail_tv_callnumber"
+                            style="@style/contentTable"
+                            android:maxWidth="50dp"
+                            android:text="call number" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView06"
+                            style="@style/headTable"
+                            android:layout_marginLeft="10dp"
+                            android:text="Material type : " />
+
+                        <TextView
+                            android:id="@+id/cpenalty_detail_tv_mttype"
+                            style="@style/contentTable"
+                            android:text="จาวา [ภาษาคอมพิวเตอร์].(+)" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView06"
+                            style="@style/headTable"
+                            android:text="Status : " />
+
+                        <TextView
+                            android:id="@+id/cpenalty_detail_tv_status"
+                            style="@style/contentTable"
+                            android:text="Available" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView06"
+                            style="@style/headTable"
+                            android:text="Subject : " />
+
+                        <TextView
+                            android:id="@+id/cpenalty_detail_tv_subject"
+                            style="@style/contentTable"
+                            android:text="Subject" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView07"
+                            style="@style/headTable"
+                            android:text="Description : " />
+
+                        <TextView
+                            android:id="@+id/cpenalty_detail_tv_description"
+                            style="@style/contentTable"
+                            android:maxWidth="50dp"
+                            android:text="description" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView07"
+                            style="@style/headTable"
+                            android:text="Start date : " />
+
+                        <TextView
+                            android:id="@+id/cpenalty_detail_tv_sdate"
+                            style="@style/contentTable"
+                            android:maxWidth="50dp"
+                            android:text="start date" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView07"
+                            style="@style/headTable"
+                            android:text="End date : " />
+
+                        <TextView
+                            android:id="@+id/cpenalty_detail_tv_edate"
+                            style="@style/contentTable"
+                            android:maxWidth="50dp"
+                            android:text="End date" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView07"
+                            style="@style/headTable"
+                            android:text="Penalty : " />
+
+                        <TextView
+                            android:id="@+id/cpenalty_detail_tv_penalty"
+                            style="@style/contentTable"
+                            android:maxWidth="50dp"
+                            android:text="penalty" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="nf_rb"
+        android:title="Notification returnning books" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="perform_notif"
+            android:summary="Enable or disable data notification"
+            android:title="Enable notification" />
+
+        <ListPreference
+            android:defaultValue="2"
+            android:dependency="perform_notif"
+            android:entries="@array/spn_pr_return_entries"
+            android:entryValues="@array/spn_pr_return_entvalue"
+            android:key="perform_days"
+            android:summary="How many day before returning book."
+            android:title="Setting days" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="perform_email_noti"
+            android:summary="Enable or disable email notification"
+            android:title="Enable email notification" />
+
+        <EditTextPreference
+            android:defaultValue="support@softsoft.com"
+            android:dependency="perform_email_noti"
+            android:dialogMessage="Provide a your e-mail."
+            android:dialogTitle="Email"
+            android:key="email"
+            android:summary="Define email for notification."
+            android:title="E-mail" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="Language"
+        android:title="Language" >
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/spn_language_system_entries"
+            android:entryValues="@array/spn_language_system_entvalue"
+            android:key="perform_language"
+            android:summary="Language system"
+            android:title="Language" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="server_setting"
+        android:title="Server Setting" >
+        <EditTextPreference
+            android:dialogMessage="Provide server url"
+            android:dialogTitle="Server url"
+            android:key="server_url"
+            android:title="Setting server url" android:summary="Server url for connect." android:defaultValue="wulib.softsoft.com"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

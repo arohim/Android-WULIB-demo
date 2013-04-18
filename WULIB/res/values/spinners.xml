@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spn_in">
+        <item>Article</item>
+        <item>Author</item>
+        <item>Subject</item>
+    </string-array>
+    <string-array name="spn_pr_return_entries">
+        <item>Before 1 day</item>
+        <item>Before 2 days</item>
+        <item>Before 3 days</item>
+    </string-array>
+    <string-array name="spn_pr_return_entvalue">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="spn_in_catalog">
+        <item>Title</item>
+        <item>Author</item>
+        <item>Subject</item>
+        <item>Barcode</item>
+        <item>ISBN/ISSN</item>
+    </string-array>
+    <string-array name="spn_language">
+        <item>ALL</item>
+        <item>Thai</item>
+        <item>English</item>
+        <item>Chinese</item>
+    </string-array>
+    <string-array name="spn_language_system_entries">
+        <item>Thai</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="spn_language_system_entvalue">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="spn_catalog">
+        <item>Title</item>
+        <item>Author</item>
+        <item>Subject</item>
+        <item>BARCODE</item>
+        <item>ISBN/ISSN</item>
+    </string-array>
+    <string-array name="spn_sst_for">
+        <item>Catalog</item>
+        <item>Journal</item>
+    </string-array>
+    <string-array name="spn_sst_type">
+        <item>Standard</item>
+        <item>Speech</item>
+    </string-array>
+    <string-array name="spn_csk_location">
+        <item>ALL</item>
+        <item>ศูนย์บรรณสารและสื่อการศึกษา</item>
+        <item>หน่วยประสานงาน กรุงเทพมหานคร</item>
+        <item>ศูนย์วิทยบริการ จ.สุราษฎร์ธานี</item>
+        <item>การจัดการเทคโนโลยีสารสนเทศ</item>
+        <item>ไม่มีข้อมูล</item>
+        <item>ห้องปฏิบัติการกายวิภาคศาสตร์</item>
+        <item>คณะแพทยศาสตร์</item>
+        <item>ห้องปฎิบัติการสารสนเทศ</item>
+    </string-array>
+    <string-array name="spn_csk_itemtype">
+        <item>ALL</item>
+        <item>Book</item>
+        <item>Serial</item>
+        <item>Music</item>
+        <item>Map</item>
+        <item>Visual</item>
+        <item>Sound</item>
+        <item>Mixed</item>
+    </string-array>
+    <string-array name="spn_csk_collection">
+        <item>ALL</item>
+        <item>ASEAN Corner</item>
+        <item>BASC</item>
+        <item>CD - ROM</item>
+        <item>COOP</item>
+        <item>Cassette Tape</item>
+        <item>DVD</item>
+        <item>Diskette</item>
+        <item>General Book</item>
+        <item>General Book-ภาษาไทย</item>
+        <item>Gov. Pub.</item>
+        <item>HANBAN</item>
+        <item>Health Sciences Collection</item>
+        <item>Journals</item>
+        <item>Learning Assistance Unit</item>
+        <item>MED TEXTBOOK</item>
+        <item>MIT</item>
+        <item>Map</item>
+        <item>Master</item>
+        <item>Online resource</item>
+        <item>PHARMA TEXTBOOK</item>
+        <item>PT TEXTBOOK</item>
+        <item>Reference Book</item>
+        <item>Reference Book-HSC</item>
+        <item>SASC</item>
+        <item>SET Corner</item>
+        <item>Slide</item>
+        <item>Thesis</item>
+        <item>Two Dimension</item>
+        <item>VCD</item>
+        <item>VDO</item>
+        <item>iPad</item>
+        <item>ขุนอาเทศคดี</item>
+        <item>คุณวัชรา  หงส์ประภัศร</item>
+        <item>นวนิยาย</item>
+        <item>หนังสือประกอบ CD</item>
+    </string-array>
+
+</resources>

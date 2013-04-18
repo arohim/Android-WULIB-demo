@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mainhead"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="CLM"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:text="The center for library resources"
+            android:textColor="@color/gray" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2"
+            android:text="and educational media"
+            android:textColor="@color/gray" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:alpha="0.3"
+        android:background="@drawable/shadow" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp" >
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center_vertical|center_horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_main_search"
+                        style="@style/btnMember"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:layout_marginRight="2dp"
+                        android:onClick="btnClick"
+                        android:text="Search" />
+
+                    <Button
+                        android:id="@+id/btn_main_news"
+                        style="@style/btnMember"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:layout_marginRight="2dp"
+                        android:onClick="btnClick"
+                        android:text="News" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center_vertical|center_horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_main_scanBookInfo"
+                        style="@style/btnMember"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:layout_marginRight="2dp"
+                        android:onClick="btnClick"
+                        android:text="Scan book Infomation"
+                        android:textSize="14dp" />
+
+                    <Button
+                        android:id="@+id/btn_main_member"
+                        style="@style/btnMember"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:layout_marginRight="2dp"
+                        android:onClick="btnClick"
+                        android:text="Member" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical|center_horizontal" >
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom" >
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mainhead"
+            android:text="Walailak University  WULIB"
+            android:textColor="@color/gray" />
+    </LinearLayout>
+
+</LinearLayout>

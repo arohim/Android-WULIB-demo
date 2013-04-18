@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WULIB</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_search_by_keyword">SearchByKeyword</string>
+    <string name="title_activity_search_by_alphabetically">SearchByAlphabetically</string>
+    <string name="title_activity_search_advance">SearchAdvance</string>
+    <string name="title_activity_main_search">MainSearch</string>
+    <string name="title_activity_main_member">MainMember</string>
+    <string name="title_activity_member_borrows">Borrows</string>
+    <string name="title_activity_member_renew">Renew</string>
+    <string name="title_activity_search_result">SearchResult</string>
+    <string name="title_activity_search_detail">SearchDetail</string>
+    <string name="title_activity_news_main">NewsMain</string>
+    <string name="title_activity_news_book_main">News Books</string>
+    <string name="title_activity_main_book_info">Book Infomation</string>
+    <string name="title_activity_search_detail_info">SearchDetailInfo</string>
+    <string name="title_activity_search_detail_card">SearchDetailCard</string>
+    <string name="title_activity_search_detail_marc">SearchDetailMarc</string>
+    <string name="title_activity_main_favorite">Your Favorite</string>
+    <string name="title_activity_search_select_type">SearchSelectType</string>
+    <string name="title_activity_search_by_speech">SearchBySpeech</string>
+    <string name="title_activity_main_history">History</string>
+    <string name="title_activity_history_item_detail">HistoryItemDetail</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_search_select">SearchSelect</string>
+    <string name="title_activity_search_select_for">SearchSelectFor</string>
+    <string name="title_activity_show_cover">ShowCover</string>
+    <string name="title_activity_select_favorite">SelectFavorite</string>
+    <string name="title_activity_news_detail">NewsDetail</string>
+    <string name="warning">Warning!</string>
+    <string name="nointernet">No internet connect.</string>
+    <string name="title_activity_call_center">CallCenter</string>
+    <string name="callcenter">บริษัท ซอฟท์ซอฟท์ จำกัด \n   โทร. 000-0000-00 \n  แฟก. 000-0000-00\n  อีเมล์ support@softsoft.com\n       fb facebook.com/softsoft</string>
+    <string name="title_activity_cmain_renews">Catalog renews</string>
+    <string name="title_activity_jmain_renews">Journal renews</string>
+    <string name="title_activity_penalty_main">PenaltyMain</string>
+    <string name="title_activity_cpenalty_main">Catalog penalty</string>
+
+</resources>
